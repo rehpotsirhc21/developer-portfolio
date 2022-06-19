@@ -107,7 +107,7 @@ h1 {
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  bottom: -70px;
+  /* bottom: -70px; */
 }
 
 @keyframes bubble {
@@ -185,6 +185,16 @@ h1 {
 @media screen and (max-width:575px) {
  .content h1 {
   font-size: 50px;
+  
+ }
+ .project img {
+  max-width: 200px;
+ }
+ .title{
+  font-size: 50px;
+ }
+ .prj-title {
+  font-size: 20px;
  }
   
 }

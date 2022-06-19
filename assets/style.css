@@ -107,7 +107,7 @@ h1 {
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  /* bottom: -70px; */
+  bottom: -70px;
 }
 
 @keyframes bubble {
@@ -171,6 +171,7 @@ h1 {
 
 .title {
     text-decoration: underline rgba(239, 6, 138, 0.267);
+    text-align: center;
 }
 
 .project img{
